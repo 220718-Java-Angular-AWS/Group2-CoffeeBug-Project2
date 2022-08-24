@@ -6,6 +6,7 @@ import javax.persistence.*;
 @Table(name = "carts")
 
 public class cartHibernate {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cart_id")
@@ -66,4 +67,5 @@ public class cartHibernate {
     public String toString() {
         return "Cart [id=" + cartId + ", planId=" + planId + ", prodId=" + prodId + ", quantity=" + quantity + "]";
     }
+
 }

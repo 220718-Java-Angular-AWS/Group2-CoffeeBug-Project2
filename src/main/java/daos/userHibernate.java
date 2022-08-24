@@ -91,16 +91,17 @@ public class userHibernate {
         this.admin = admin;
     }
 
+
     @Override
     public String toString() {
-        return "userHibernate{" +
+        return "userHibernate[" +
                 "userId=" + userId +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", email='" + email + '\'' +
-                ", admin='" + admin + '\'' +
-                '}';
+                ", firstName=" + firstName  +
+                ", lastName=" + lastName  +
+                ", username=" + username  +
+                ", password=" + password  +
+                ", email=" + email  +
+                ", admin=" + admin  +
+                ']';
     }
 }
